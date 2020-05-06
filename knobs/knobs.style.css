@@ -1,0 +1,22 @@
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 85vw;
+    margin: 0 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.container .card {
+    display: flex;
+    flex-direction: column;
+    background-color: #eeeeee;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 25px;
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+}
